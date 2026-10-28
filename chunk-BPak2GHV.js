@@ -1,0 +1,2 @@
+import{n as l$1}from"./chunk-BnfgpTIz.js";import{r as E}from"./chunk-BrduxXLM.js";l$1();function l(r,a,d){let t=new Map;for(let n of r){let e=E(n);e&&!t.has(e)&&t.set(e,n.trim())}for(let n of a)if(!(n.id===d||n.deletedAt!==void 0))for(let e of[n.name,...n.aliases]){let s=t.get(E(e));if(s!==void 0)return{name:s,other:n}}}function u(r,a){let d=E(a),t=new Set,n=[];for(let e of r.split(`
+`)){let s=e.trim(),o=E(s);!o||o===d||t.has(o)||(t.add(o),n.push(s))}return n}export{u as n,l as t};
