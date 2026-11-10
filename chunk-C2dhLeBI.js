@@ -1,0 +1,1 @@
+import{n as l}from"./chunk-D6F52BBu.js";l();var r=[{path:`exercise/:exerciseId`,title:$localize`:@@route.history.exercise:История упражнения`,loadComponent:()=>import(`./chunk-BrcwN_n-.js`).then(t=>t.ExerciseHistoryPage)}];export{r as HISTORY_ROUTES};
